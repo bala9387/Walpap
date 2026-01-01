@@ -1,0 +1,4 @@
+[build]
+  base = "Walpap-main"
+  publish = ".next"
+  command = "npm run build"
