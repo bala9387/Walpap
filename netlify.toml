@@ -7,5 +7,8 @@
   NODE_VERSION = "20"
   NPM_FLAGS = "--legacy-peer-deps"
 
+[functions]
+  external_node_modules = ["sharp", "recharts", "@radix-ui", "date-fns", "react-day-picker", "embla-carousel-react", "lucide-react"]
+
 [[plugins]]
   package = "@netlify/plugin-nextjs"
